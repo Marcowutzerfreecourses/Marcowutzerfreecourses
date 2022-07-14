@@ -1,0 +1,119 @@
+.div-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background-color: #272727d7;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.div-playing {
+    display: flex;
+    z-index: 1000;
+    margin-bottom: 100px;
+}
+
+.div-video h3 {
+    font-size: 30px;
+    margin-top: 90px;
+    color: #c32865;
+    font-family: monserat, sans-serif;
+    text-align: center;
+}
+
+.div-element {
+    width: 100%;
+    position: relative;
+    left: 0;
+    display: flex;
+    background-color: #272727f3;
+    height: 100px;
+}
+
+.button-buy {
+    z-index: 1001;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 40px;
+    border-color: aliceblue;
+    background-color: #c32865;
+    color: white;
+}
+
+@media all and (max-width: 875px) {
+    .div-video {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        background-color: #272727d7;
+
+    }
+
+    .div-video h3 {
+        font-size: 10px;
+        margin-top: 90px;
+        color: #c32865;
+        font-family: monserat, sans-serif;
+        text-align: center;
+    }
+
+    .video-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .div-playing {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        margin-top: 180px;
+        left: 0;
+        top: 0;
+        z-index: 6;
+
+    }
+
+    .div-video h3 {
+        font-size: 25px;
+        margin-top: 85px;
+        color: #c32865;
+        font-family: monserat, sans-serif;
+        text-align: center;
+    }
+
+    .button-buy {
+        z-index: 1001;
+        margin-bottom: 30px;
+        padding: 9px;
+        border-radius: 20px;
+        border-color: aliceblue;
+        background-color: #c32865;
+        color: white;
+    }
+
+    .div-divplaying {
+        height: 300px
+    }
+
+}
